@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-image: url('pianoSchool.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-gap: 10px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+}
+
+img {
+    border-radius: 35px;
+    max-width: 300px;
+    border: 6px inset silver;
+}
+
+h1,
+h2 {
+    padding: 100px;
+    font-size: 60px;
+    color: white;
+    font-family: cursive;
+}
+
+@media (min-width: 600px) {
+    body {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+}
